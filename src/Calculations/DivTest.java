@@ -1,10 +1,11 @@
+package Calculations;
 import static org.junit.Assert.*;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class SqrtTest {
+public class DivTest {
 	CalculatorModel m;
 	CalculatorView v;
 
@@ -20,10 +21,9 @@ public class SqrtTest {
 
 	@Test
 	public void test() {
-		double output= m.squaroot(-4, v);
+		double output= m.div(4, 0, v);
 		boolean a=m.check_flag();
 		assertEquals(true,a);
 	}
-
 
 }

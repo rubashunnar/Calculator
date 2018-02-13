@@ -1,3 +1,4 @@
+package Calculations;
 import java.lang.Math.*;
 
 import javax.swing.JOptionPane;
