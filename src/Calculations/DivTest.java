@@ -25,5 +25,17 @@ public class DivTest {
 		boolean a=m.check_flag();
 		assertEquals(true,a);
 	}
+	@Test
+	public void test2() {
+		double output= m.mod(4, 0, v);
+		boolean a=m.check_flag();
+		assertEquals(true,a);
+	}
+	@Test
+	public void test3() {
+		double output= m.squaroot(-4, v);
+		boolean a=m.check_flag();
+		assertEquals(true,a);
+	}
 
 }

@@ -4,7 +4,7 @@
 <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
 
 	<path id="NecessaryLibraries">
-<pathelement location="./MyLibraries/junit-4.10.jar"/>	
+<pathelement location="./MyLibraries/junit-4.0.jar"/>
 </path>
 <target name="compile">
 <mkdir dir="${result.javaclasses.dir}"/>
@@ -26,7 +26,7 @@ includeantruntime="false">
 <formatter type="brief" usefile="false"/>
 <batchtest >
 <fileset dir="${result.javaclasses.dir}" >
-<include name="**/*​AllTests​.class"/>
+<include name="**/*​DivTest​.class"/>
 </fileset>
 </batchtest>
 </junit>
