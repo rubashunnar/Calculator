@@ -5,6 +5,7 @@
 
 	<path id="NecessaryLibraries">
 <pathelement location="./MyLibraries/junit-4.10.jar"/>
+<pathelement location="./MyLibraries/org.hamcrest.core_1.3.0.v201303031735.jar"/>		
 </path>
 <target name="compile">
 <mkdir dir="${result.javaclasses.dir}"/>
